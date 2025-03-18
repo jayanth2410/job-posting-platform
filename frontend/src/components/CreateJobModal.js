@@ -48,7 +48,7 @@ const CreateJobModal = ({ isOpen, onClose, onPublish }) => {
     };
 
     try {
-      const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5000"; // Configurable API URL
+      const API_URL = process.env.REACT_APP_API_URL || "https://job-posting-platform.onrender.com"; // Configurable API URL
       const response = await fetch(`${API_URL}/api/jobs`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
