@@ -1,0 +1,798 @@
+[{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb052"
+  },
+  "title": "Software Engineering Intern",
+  "company": "Google",
+  "location": "Bengaluru",
+  "jobType": "Internship",
+  "salaryFrom": 50000,
+  "salaryTo": 125000,
+  "deadline": {
+    "$date": "2025-06-01T00:00:00.000Z"
+  },
+  "description": "Summer internship for 2025/2026 passouts, focusing on software development.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.615Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb053"
+  },
+  "title": "Data Analyst Intern",
+  "company": "Morgan Stanley",
+  "location": "Mumbai",
+  "jobType": "Internship",
+  "salaryFrom": 40000,
+  "salaryTo": 87000,
+  "deadline": {
+    "$date": "2025-05-15T00:00:00.000Z"
+  },
+  "description": "6-month internship for 2024 passouts, analyzing financial data.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.615Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb054"
+  },
+  "title": "SDE Intern",
+  "company": "HackerRank",
+  "location": "Bengaluru",
+  "jobType": "Internship",
+  "salaryFrom": 40000,
+  "salaryTo": 45000,
+  "deadline": {
+    "$date": "2025-04-30T00:00:00.000Z"
+  },
+  "description": "6-month software development internship for 2024 passouts.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.616Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb055"
+  },
+  "title": "Marketing Intern",
+  "company": "Flipkart",
+  "location": "Remote",
+  "jobType": "Internship",
+  "salaryFrom": 30000,
+  "salaryTo": 60000,
+  "deadline": {
+    "$date": "2025-06-15T00:00:00.000Z"
+  },
+  "description": "Summer internship for 2026 female students, part of Runway program.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.616Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb056"
+  },
+  "title": "Engineering Intern",
+  "company": "ThoughtSpot",
+  "location": "Bangalore",
+  "jobType": "Internship",
+  "salaryFrom": 40000,
+  "salaryTo": 100000,
+  "deadline": {
+    "$date": "2025-05-01T00:00:00.000Z"
+  },
+  "description": "Summer internship for 2025 passouts, engineering focus.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.616Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb057"
+  },
+  "title": "Frontend Developer Intern",
+  "company": "UNIABROAD",
+  "location": "Remote",
+  "jobType": "Internship",
+  "salaryFrom": 25000,
+  "salaryTo": 50000,
+  "deadline": {
+    "$date": "2025-04-20T00:00:00.000Z"
+  },
+  "description": "Remote internship for 2022/2023 passouts, frontend development.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.617Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb058"
+  },
+  "title": "AI Research Intern",
+  "company": "Tower Research Capital",
+  "location": "Gurgaon",
+  "jobType": "Internship",
+  "salaryFrom": 60000,
+  "salaryTo": 120000,
+  "deadline": {
+    "$date": "2025-06-10T00:00:00.000Z"
+  },
+  "description": "Summer internship for 2024/2025 passouts, AI research.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.617Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb059"
+  },
+  "title": "Product Management Intern",
+  "company": "Coinbase",
+  "location": "Bengaluru",
+  "jobType": "Internship",
+  "salaryFrom": 80000,
+  "salaryTo": 150000,
+  "deadline": {
+    "$date": "2025-05-20T00:00:00.000Z"
+  },
+  "description": "Summer internship for 2024/2025 passouts, product focus.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.617Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb05a"
+  },
+  "title": "UX Design Intern",
+  "company": "Mobileum",
+  "location": "Bengaluru",
+  "jobType": "Internship",
+  "salaryFrom": 35000,
+  "salaryTo": 70000,
+  "deadline": {
+    "$date": "2025-04-25T00:00:00.000Z"
+  },
+  "description": "6-month internship for 2023 passouts, UX design.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.617Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb05b"
+  },
+  "title": "Cloud Computing Intern",
+  "company": "Amazon",
+  "location": "Chennai",
+  "jobType": "Internship",
+  "salaryFrom": 45000,
+  "salaryTo": 90000,
+  "deadline": {
+    "$date": "2025-06-05T00:00:00.000Z"
+  },
+  "description": "Internship for data science learners, cloud computing focus.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.617Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb05c"
+  },
+  "title": "Software Engineer",
+  "company": "Google",
+  "location": "Pune",
+  "jobType": "Full-time",
+  "salaryFrom": 80000,
+  "salaryTo": 150000,
+  "deadline": {
+    "$date": "2025-04-30T00:00:00.000Z"
+  },
+  "description": "Full-time role for experienced engineers.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.617Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb05d"
+  },
+  "title": "Data Scientist",
+  "company": "Morgan Stanley",
+  "location": "Mumbai",
+  "jobType": "Full-time",
+  "salaryFrom": 70000,
+  "salaryTo": 130000,
+  "deadline": {
+    "$date": "2025-05-15T00:00:00.000Z"
+  },
+  "description": "Full-time data analysis role.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.617Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb05e"
+  },
+  "title": "Backend Developer",
+  "company": "HackerRank",
+  "location": "Bengaluru",
+  "jobType": "Full-time",
+  "salaryFrom": 60000,
+  "salaryTo": 110000,
+  "deadline": {
+    "$date": "2025-04-20T00:00:00.000Z"
+  },
+  "description": "Full-time backend development position.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.617Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb05f"
+  },
+  "title": "Marketing Manager",
+  "company": "Flipkart",
+  "location": "Remote",
+  "jobType": "Full-time",
+  "salaryFrom": 90000,
+  "salaryTo": 140000,
+  "deadline": {
+    "$date": "2025-06-01T00:00:00.000Z"
+  },
+  "description": "Full-time marketing leadership role.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.617Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb060"
+  },
+  "title": "Systems Engineer",
+  "company": "ThoughtSpot",
+  "location": "Bangalore",
+  "jobType": "Full-time",
+  "salaryFrom": 85000,
+  "salaryTo": 135000,
+  "deadline": {
+    "$date": "2025-05-10T00:00:00.000Z"
+  },
+  "description": "Full-time engineering role.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.617Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb061"
+  },
+  "title": "Full-stack Developer",
+  "company": "UNIABROAD",
+  "location": "San Francisco",
+  "jobType": "Full-time",
+  "salaryFrom": 75000,
+  "salaryTo": 125000,
+  "deadline": {
+    "$date": "2025-04-25T00:00:00.000Z"
+  },
+  "description": "Full-time full-stack development.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb062"
+  },
+  "title": "AI Specialist",
+  "company": "Tower Research Capital",
+  "location": "Delhi NCR",
+  "jobType": "Full-time",
+  "salaryFrom": 95000,
+  "salaryTo": 160000,
+  "deadline": {
+    "$date": "2025-06-15T00:00:00.000Z"
+  },
+  "description": "Full-time AI research position.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb063"
+  },
+  "title": "Product Manager",
+  "company": "Coinbase",
+  "location": "Hyderabad",
+  "jobType": "Full-time",
+  "salaryFrom": 100000,
+  "salaryTo": 170000,
+  "deadline": {
+    "$date": "2025-05-20T00:00:00.000Z"
+  },
+  "description": "Full-time product management role.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb064"
+  },
+  "title": "Network Engineer",
+  "company": "Mobileum",
+  "location": "New York",
+  "jobType": "Full-time",
+  "salaryFrom": 80000,
+  "salaryTo": 140000,
+  "deadline": {
+    "$date": "2025-04-30T00:00:00.000Z"
+  },
+  "description": "Full-time network engineering.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb065"
+  },
+  "title": "Support Engineer",
+  "company": "Amazon",
+  "location": "TvM",
+  "jobType": "Full-time",
+  "salaryFrom": 65000,
+  "salaryTo": 120000,
+  "deadline": {
+    "$date": "2025-06-10T00:00:00.000Z"
+  },
+  "description": "Full-time customer support engineering.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb066"
+  },
+  "title": "Content Writer",
+  "company": "Flipkart",
+  "location": "Remote",
+  "jobType": "Part-time",
+  "salaryFrom": 20000,
+  "salaryTo": 40000,
+  "deadline": {
+    "$date": "2025-05-01T00:00:00.000Z"
+  },
+  "description": "Part-time content creation.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb067"
+  },
+  "title": "Graphic Designer",
+  "company": "UNIABROAD",
+  "location": "Chennai",
+  "jobType": "Part-time",
+  "salaryFrom": 25000,
+  "salaryTo": 50000,
+  "deadline": {
+    "$date": "2025-04-20T00:00:00.000Z"
+  },
+  "description": "Part-time design work.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb068"
+  },
+  "title": "Social Media Manager",
+  "company": "Mobileum",
+  "location": "Bengaluru",
+  "jobType": "Part-time",
+  "salaryFrom": 30000,
+  "salaryTo": 60000,
+  "deadline": {
+    "$date": "2025-06-15T00:00:00.000Z"
+  },
+  "description": "Part-time social media management.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb069"
+  },
+  "title": "Tutor",
+  "company": "Tower Research Capital",
+  "location": "Mumbai",
+  "jobType": "Part-time",
+  "salaryFrom": 15000,
+  "salaryTo": 35000,
+  "deadline": {
+    "$date": "2025-05-10T00:00:00.000Z"
+  },
+  "description": "Part-time tutoring.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb06a"
+  },
+  "title": "Web Developer",
+  "company": "ThoughtSpot",
+  "location": "Bangalore",
+  "jobType": "Part-time",
+  "salaryFrom": 40000,
+  "salaryTo": 70000,
+  "deadline": {
+    "$date": "2025-04-25T00:00:00.000Z"
+  },
+  "description": "Part-time web development.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb06b"
+  },
+  "title": "Virtual Assistant",
+  "company": "Coinbase",
+  "location": "Remote",
+  "jobType": "Part-time",
+  "salaryFrom": 20000,
+  "salaryTo": 45000,
+  "deadline": {
+    "$date": "2025-06-01T00:00:00.000Z"
+  },
+  "description": "Part-time virtual assistance.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb06c"
+  },
+  "title": "SEO Specialist",
+  "company": "HackerRank",
+  "location": "San Francisco",
+  "jobType": "Part-time",
+  "salaryFrom": 35000,
+  "salaryTo": 65000,
+  "deadline": {
+    "$date": "2025-05-15T00:00:00.000Z"
+  },
+  "description": "Part-time SEO optimization.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb06d"
+  },
+  "title": "Customer Support",
+  "company": "Morgan Stanley",
+  "location": "New York",
+  "jobType": "Part-time",
+  "salaryFrom": 25000,
+  "salaryTo": 50000,
+  "deadline": {
+    "$date": "2025-04-30T00:00:00.000Z"
+  },
+  "description": "Part-time customer support.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb06e"
+  },
+  "title": "Data Entry Clerk",
+  "company": "Google",
+  "location": "Hyderabad",
+  "jobType": "Part-time",
+  "salaryFrom": 15000,
+  "salaryTo": 30000,
+  "deadline": {
+    "$date": "2025-06-05T00:00:00.000Z"
+  },
+  "description": "Part-time data entry.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb06f"
+  },
+  "title": "Sales Associate",
+  "company": "Amazon",
+  "location": "TvM",
+  "jobType": "Part-time",
+  "salaryFrom": 20000,
+  "salaryTo": 40000,
+  "deadline": {
+    "$date": "2025-05-20T00:00:00.000Z"
+  },
+  "description": "Part-time sales support.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb070"
+  },
+  "title": "Contract Tester",
+  "company": "Mobileum",
+  "location": "New York",
+  "jobType": "Contract",
+  "salaryFrom": 40000,
+  "salaryTo": 70000,
+  "deadline": {
+    "$date": "2025-04-25T00:00:00.000Z"
+  },
+  "description": "6-month contract testing role.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb071"
+  },
+  "title": "Project Manager",
+  "company": "Coinbase",
+  "location": "Bengaluru",
+  "jobType": "Contract",
+  "salaryFrom": 90000,
+  "salaryTo": 150000,
+  "deadline": {
+    "$date": "2025-06-01T00:00:00.000Z"
+  },
+  "description": "12-month contract project management.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb072"
+  },
+  "title": "IT Consultant",
+  "company": "Tower Research Capital",
+  "location": "Delhi NCR",
+  "jobType": "Contract",
+  "salaryFrom": 80000,
+  "salaryTo": 140000,
+  "deadline": {
+    "$date": "2025-05-10T00:00:00.000Z"
+  },
+  "description": "9-month contract IT consulting.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb073"
+  },
+  "title": "Security Analyst",
+  "company": "Google",
+  "location": "Pune",
+  "jobType": "Contract",
+  "salaryFrom": 70000,
+  "salaryTo": 120000,
+  "deadline": {
+    "$date": "2025-04-30T00:00:00.000Z"
+  },
+  "description": "6-month contract security role.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb074"
+  },
+  "title": "Business Analyst",
+  "company": "Morgan Stanley",
+  "location": "Mumbai",
+  "jobType": "Contract",
+  "salaryFrom": 60000,
+  "salaryTo": 110000,
+  "deadline": {
+    "$date": "2025-06-15T00:00:00.000Z"
+  },
+  "description": "12-month contract analysis.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb075"
+  },
+  "title": "DevOps Engineer",
+  "company": "HackerRank",
+  "location": "Bengaluru",
+  "jobType": "Contract",
+  "salaryFrom": 85000,
+  "salaryTo": 130000,
+  "deadline": {
+    "$date": "2025-05-20T00:00:00.000Z"
+  },
+  "description": "6-month contract DevOps role.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.619Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb076"
+  },
+  "title": "UI/UX Designer",
+  "company": "Flipkart",
+  "location": "Remote",
+  "jobType": "Contract",
+  "salaryFrom": 50000,
+  "salaryTo": 90000,
+  "deadline": {
+    "$date": "2025-04-20T00:00:00.000Z"
+  },
+  "description": "9-month contract design role.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.619Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb077"
+  },
+  "title": "QA Engineer",
+  "company": "ThoughtSpot",
+  "location": "Bangalore",
+  "jobType": "Contract",
+  "salaryFrom": 45000,
+  "salaryTo": 80000,
+  "deadline": {
+    "$date": "2025-06-05T00:00:00.000Z"
+  },
+  "description": "6-month contract quality assurance.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.619Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb078"
+  },
+  "title": "Cloud Architect",
+  "company": "UNIABROAD",
+  "location": "San Francisco",
+  "jobType": "Contract",
+  "salaryFrom": 100000,
+  "salaryTo": 160000,
+  "deadline": {
+    "$date": "2025-05-15T00:00:00.000Z"
+  },
+  "description": "12-month contract cloud role.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.619Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d93effd792a88bd1cdb079"
+  },
+  "title": "Technical Writer",
+  "company": "Amazon",
+  "location": "Chennai",
+  "jobType": "Contract",
+  "salaryFrom": 35000,
+  "salaryTo": 60000,
+  "deadline": {
+    "$date": "2025-04-25T00:00:00.000Z"
+  },
+  "description": "6-month contract technical writing.",
+  "createdAt": {
+    "$date": "2025-03-18T09:38:07.619Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d94dc08cbe376e066e326c"
+  },
+  "title": "Supply Chain Management",
+  "company": "Radiant",
+  "location": "Chennai",
+  "jobType": "Full-time",
+  "salaryFrom": 30000,
+  "salaryTo": 40000,
+  "deadline": {
+    "$date": "2025-03-20T00:00:00.000Z"
+  },
+  "description": "Supply Chain Management",
+  "createdAt": {
+    "$date": "2025-03-18T10:41:04.337Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d94f438cbe376e066e3274"
+  },
+  "title": "Testing",
+  "company": "Testing",
+  "location": "testing",
+  "jobType": "Full-time",
+  "salaryFrom": 10000,
+  "salaryTo": 20000,
+  "deadline": {
+    "$date": "2025-03-19T00:00:00.000Z"
+  },
+  "description": "✅ Ensures uniform spacing between the description and the button.\n✅ Prevents \"Apply Now\" from being too close when the description is short.\n✅ Maintains a consistent layout for all job cards.\n✅ Ensures uniform spacing between the description and the button.\n✅ Prevents \"Apply Now\" from being too close when the description is short.\n✅ Maintains a consistent layout for all job cards.\n✅ Ensures uniform spacing between the description and the button.\n✅ Prevents \"Apply Now\" from being too close when the description is short.\n✅ Maintains a consistent layout for all job cards.",
+  "createdAt": {
+    "$date": "2025-03-18T10:47:31.742Z"
+  },
+  "__v": 0
+}]
