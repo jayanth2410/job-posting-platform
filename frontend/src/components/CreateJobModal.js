@@ -1,19 +1,18 @@
 import { useEffect, useState } from "react";
-import { Save, ArrowRight } from "lucide-react"; // Import icons
+import { Save, ArrowRight } from "lucide-react";
 
 const CreateJobModal = ({ isOpen, onClose, onPublish }) => {
   const [formData, setFormData] = useState({
     title: "",
     company: "",
     location: "",
-    jobType: "Internship", // Default to Internship
+    jobType: "Internship",
     salaryFrom: "",
     salaryTo: "",
     deadline: "",
     description: "",
   });
 
-  // Prevent scrolling on the home page when modal is open
   useEffect(() => {
     document.body.style.overflow = isOpen ? "hidden" : "auto";
     return () => (document.body.style.overflow = "auto");
@@ -21,16 +20,13 @@ const CreateJobModal = ({ isOpen, onClose, onPublish }) => {
 
   if (!isOpen) return null;
 
-  // Handle input changes
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  // Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Validation check
     for (let key in formData) {
       if (!formData[key]) {
         alert(`Please fill in the ${key} field.`);
@@ -38,18 +34,18 @@ const CreateJobModal = ({ isOpen, onClose, onPublish }) => {
       }
     }
 
-    // Convert salary fields to numbers and prepare payload
     const payload = {
       ...formData,
       salaryFrom: Number(formData.salaryFrom),
       salaryTo: Number(formData.salaryTo),
-      deadline: new Date(formData.deadline).toISOString(), // Ensure ISO format for deadline
+      deadline: new Date(formData.deadline).toISOString(),
     };
 
     try {
       const API_URL =
         process.env.REACT_APP_API_URL ||
-        "https://job-posting-platform.onrender.com"; // Configurable API URL
+        "https://job-posting-platform.onrender.com";
+
       const response = await fetch(`${API_URL}/api/jobs`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -69,8 +65,8 @@ const CreateJobModal = ({ isOpen, onClose, onPublish }) => {
           description: "",
         });
 
-        if (onPublish) onPublish(); // Notify parent to refresh jobs
-        onClose(); // Close modal
+        if (onPublish) onPublish();
+        onClose();
       } else {
         const errorData = await response.json();
         alert(`Error posting job: ${errorData.error || "Unknown error"}`);
@@ -85,7 +81,7 @@ const CreateJobModal = ({ isOpen, onClose, onPublish }) => {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-30 backdrop-blur-sm">
-      <div className="relative w-11/12 md:w-7/12 max-h-[80vh] bg-white p-6 rounded-lg shadow-lg flex flex-col">
+      <div className="relative w-7/12 max-h-[80vh] bg-white p-6 rounded-lg shadow-lg flex flex-col">
         <button
           onClick={onClose}
           className="absolute top-4 right-4 text-gray-600 hover:text-gray-900 text-2xl"
@@ -101,7 +97,7 @@ const CreateJobModal = ({ isOpen, onClose, onPublish }) => {
           onSubmit={handleSubmit}
           className="mt-4 space-y-4 overflow-y-auto max-h-[70vh] p-2"
         >
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-4">
             <div>
               <label className="block text-sm font-medium">Job Title</label>
               <input
@@ -126,7 +122,7 @@ const CreateJobModal = ({ isOpen, onClose, onPublish }) => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-4">
             <div>
               <label className="block text-sm font-medium">Location</label>
               <input
@@ -154,10 +150,12 @@ const CreateJobModal = ({ isOpen, onClose, onPublish }) => {
             </div>
           </div>
 
+          {/* Salary Range & Application Deadline */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {/* Salary Range: Always stays on one line */}
             <div>
               <label className="block text-sm font-medium">Salary Range</label>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+              <div className="flex gap-2">
                 <input
                   type="number"
                   name="salaryFrom"
@@ -178,7 +176,9 @@ const CreateJobModal = ({ isOpen, onClose, onPublish }) => {
                 />
               </div>
             </div>
-            <div>
+
+            {/* Application Deadline: Moves below Salary on small screens */}
+            <div className="sm:col-span-1 col-span-2">
               <label className="block text-sm font-medium">
                 Application Deadline
               </label>
@@ -215,6 +215,7 @@ const CreateJobModal = ({ isOpen, onClose, onPublish }) => {
             >
               <Save size={18} /> Save Draft
             </button>
+
             <button
               type="submit"
               className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg shadow-md hover:bg-blue-700"
