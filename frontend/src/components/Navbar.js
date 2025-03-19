@@ -57,10 +57,7 @@ const Navbar = () => {
       </nav>
 
       {/* Job Modal Component */}
-      <CreateJob
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
-      />
+      <CreateJob isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </>
   );
 };

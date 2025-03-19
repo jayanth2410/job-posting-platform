@@ -85,7 +85,7 @@ const CreateJobModal = ({ isOpen, onClose, onPublish }) => {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-30 backdrop-blur-sm">
-      <div className="relative w-7/12 max-h-[80vh] bg-white p-6 rounded-lg shadow-lg flex flex-col">
+      <div className="relative w-11/12 md:w-7/12 max-h-[80vh] bg-white p-6 rounded-lg shadow-lg flex flex-col">
         <button
           onClick={onClose}
           className="absolute top-4 right-4 text-gray-600 hover:text-gray-900 text-2xl"
@@ -101,7 +101,7 @@ const CreateJobModal = ({ isOpen, onClose, onPublish }) => {
           onSubmit={handleSubmit}
           className="mt-4 space-y-4 overflow-y-auto max-h-[70vh] p-2"
         >
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <label className="block text-sm font-medium">Job Title</label>
               <input
@@ -126,7 +126,7 @@ const CreateJobModal = ({ isOpen, onClose, onPublish }) => {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <label className="block text-sm font-medium">Location</label>
               <input
@@ -154,7 +154,7 @@ const CreateJobModal = ({ isOpen, onClose, onPublish }) => {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <label className="block text-sm font-medium">Salary Range</label>
               <div className="flex gap-2">
@@ -164,7 +164,7 @@ const CreateJobModal = ({ isOpen, onClose, onPublish }) => {
                   value={formData.salaryFrom}
                   onChange={handleChange}
                   placeholder="From"
-                  className="flex-1 border p-2 rounded"
+                  className="w-1/2 border p-2 rounded"
                   required
                 />
                 <input
@@ -173,7 +173,7 @@ const CreateJobModal = ({ isOpen, onClose, onPublish }) => {
                   value={formData.salaryTo}
                   onChange={handleChange}
                   placeholder="To"
-                  className="flex-1 border p-2 rounded"
+                  className="w-1/2 border p-2 rounded"
                   required
                 />
               </div>
