@@ -154,17 +154,17 @@ const CreateJobModal = ({ isOpen, onClose, onPublish }) => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <label className="block text-sm font-medium">Salary Range</label>
-              <div className="flex gap-2">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                 <input
                   type="number"
                   name="salaryFrom"
                   value={formData.salaryFrom}
                   onChange={handleChange}
                   placeholder="From"
-                  className="w-1/2 border p-2 rounded"
+                  className="w-full border p-2 rounded"
                   required
                 />
                 <input
@@ -173,7 +173,7 @@ const CreateJobModal = ({ isOpen, onClose, onPublish }) => {
                   value={formData.salaryTo}
                   onChange={handleChange}
                   placeholder="To"
-                  className="w-1/2 border p-2 rounded"
+                  className="w-full border p-2 rounded"
                   required
                 />
               </div>
@@ -208,7 +208,6 @@ const CreateJobModal = ({ isOpen, onClose, onPublish }) => {
           </div>
 
           <div className="flex justify-between mt-4">
-            {/* Save Draft Button */}
             <button
               type="button"
               className="flex items-center gap-2 border-2 border-black px-4 py-2 rounded-lg shadow-sm hover:bg-gray-100"
@@ -216,8 +215,6 @@ const CreateJobModal = ({ isOpen, onClose, onPublish }) => {
             >
               <Save size={18} /> Save Draft
             </button>
-
-            {/* Publish Button */}
             <button
               type="submit"
               className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg shadow-md hover:bg-blue-700"

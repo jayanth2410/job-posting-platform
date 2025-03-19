@@ -39,21 +39,18 @@ const JobListings = ({ jobs: initialJobs, filters }) => {
   }, [initialJobs, filters]);
 
   return (
-    <div className="container mx-auto px-4 py-6">
-      {filteredJobs.length > 0 ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {filteredJobs.map((job) => (
-            <div
-              key={job._id}
-              className="w-full max-w-full sm:max-w-xs md:max-w-sm lg:max-w-md"
-            >
-              <JobCard job={job} />
-            </div>
-          ))}
-        </div>
-      ) : (
-        <p className="text-center text-gray-500">No jobs found.</p>
-      )}
+    <div className="w-full px-4 sm:px-0 py-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-0 sm:gap-6">
+        {filteredJobs.length > 0 ? (
+          filteredJobs.map((job) => (
+            <JobCard key={job._id} job={job} className="w-full" />
+          ))
+        ) : (
+          <p className="text-center text-gray-500 col-span-full">
+            No jobs found.
+          </p>
+        )}
+      </div>
     </div>
   );
 };
