@@ -47,7 +47,7 @@ const JobListings = ({ jobs: initialJobs, filters }) => {
           ))
         ) : (
           <p className="text-center text-gray-500 col-span-full">
-            No jobs found.
+           Please Wait.. Jobs Loading.
           </p>
         )}
       </div>
